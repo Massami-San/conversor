@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    color: rgba(119, 119, 119, 1);
+}
+
+body {
+
+    background-color: #121212;
+}
+
+main {
+    background: #fff;
+    width: 375px;
+    border-radius: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    padding: 44px 24px 23px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+select{
+    width: 327px;
+    height: 48px;
+    border: 1px solid rgba(119, 119, 119, 1);
+    border-radius: 5px;
+    color: rgba(85, 85, 85, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input{
+    
+    width: 327px;
+    height: 48px;
+    border: 1px solid rgba(119, 119, 119, 1);
+    border-radius: 5px;
+    color: rgba(85, 85, 85, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    background: rgba(119, 119, 119, 1);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgba(119, 119, 119, 0.8);
+}
+
+button:active {
+    background: rgba(119, 119, 119, 1);
+}
+
+section {
+    border: 1px solid rgba(119, 119, 119, 1);
+    border-radius: 5px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.seta {
+    width: 35px;
+    height: 49px;
+    margin: 12px auto;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.moeda-a-ser-convertida {
+    width: 65px;
+    height: 65px;
+}
+
+.moeda-convertida {
+    width: 65px;
+    height: 65px;
+}
