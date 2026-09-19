@@ -16,10 +16,10 @@
 <body>
     <main>
         <label>Converter <b>de</b>
-            <select>
-                <option value="dolar">US$ Dólar Americano</option>
-                <option value="euro">€ Euro</option>
+            <select class="value-select-to-convert">
                 <option value="real">R$ Real Brasileiro</option>
+                <option value="euro">€ Euro</option>
+                <option value="dolar">US$ Dólar Americano</option>
                 <option value="libra">£ Libra Esterlina</option>
                 <option value="iene">¥ Iene Japonês</option>
                 <option value="Peso">$ Peso Argentino</option>
@@ -27,7 +27,7 @@
             </select>
         </label>
          <label>Converter <b>para</b>
-            <select>
+            <select class="value-select-convert">
                 <option value="dolar">US$ Dólar Americano</option>
                 <option value="euro">€ Euro</option>
                 <option value="real">R$ Real Brasileiro</option>
@@ -39,20 +39,20 @@
         </label>
         Valor
         <input  placeholder="Digite o valor a ser convertido">
-        <button>Converter</button>
+        <button class="convert-button">Converter</button>
         <section>
             <div>
-                <img class="moeda-a-ser-convertida" src="./Assets/Brasil.png" alt="Moeda-a-ser-convertida">
-                <p>R$ Real Brasileiro</p>
-                <p>R$ 0.00</p>
+                <img class="moeda-a-ser-convertida" src="./Assets/Brasil.png" alt="Moeda-a-ser-convertida" style="max-width: 65px; max-height: 65px;">
+                <p class="coin-to-convert">R$ Real Brasileiro</p>
+                <p class="value-to-converted">R$ 0.00</p>
             </div>
 
             <img class="seta" src="./Assets/Seta.png" alt="Seta">
 
             <div>
-                <img class="moeda-convertida" src="./Assets/USA.png" alt="Moeda-convertida">
-                <p>US$ Dólar Americano</p>
-                <p>US$ 0.00</p>
+                <img class="moeda-convertida" src="./Assets/USA.png" alt="Moeda-convertida" style="max-width: 65px; max-height: 65px;">
+                <p class="coin-converted">US$ Dólar Americano</p>
+                <p class="value-converted">$ 0.00</p>
             </div>
 
         </section>
